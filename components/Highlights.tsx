@@ -58,11 +58,11 @@ export default function Highlights() {
           </div>
           <div
             id="threat"
-            className="flex items-center gap-2 rounded-full bg-emerald-500/15 px-4 py-2 text-sm font-semibold text-emerald-300 ring-1 ring-emerald-500/50"
+            className="flex items-center gap-2 rounded-full bg-red-500/15 px-4 py-2 text-sm font-semibold text-red-300 ring-1 ring-red-500/60"
             aria-live="polite"
           >
             <span>Current Threat Level:</span>
-            <span>SUBSTANTIAL</span>
+            <span>SEVERE</span>
           </div>
         </div>
       </Reveal>

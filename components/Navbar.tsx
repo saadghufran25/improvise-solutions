@@ -46,9 +46,9 @@ export default function Navbar() {
           </div>
         </Link>
         <div className="flex items-center gap-3">
-          <div className="hidden items-center gap-1 rounded-full bg-emerald-500/20 backdrop-blur-md px-3 py-1 text-sm font-semibold text-emerald-300 ring-1 ring-emerald-400/50 shadow-lg shadow-emerald-500/20 md:flex">
+          <div className="hidden items-center gap-1 rounded-full bg-red-500/20 backdrop-blur-md px-3 py-1 text-sm font-semibold text-red-300 ring-1 ring-red-400/60 shadow-lg shadow-red-500/20 md:flex">
             <span>Current Threat Level:</span>
-            <span aria-live="polite">SUBSTANTIAL</span>
+            <span aria-live="polite">SEVERE</span>
           </div>
           <button
             className="md:hidden"
@@ -87,9 +87,9 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <div className="mx-4 mb-4 space-y-2 rounded-2xl bg-gradient-to-br from-slate-900/60 via-slate-800/50 to-slate-900/60 p-4 ring-1 ring-white/20 backdrop-blur-2xl shadow-2xl">
-            <div className="flex items-center justify-between rounded-xl bg-emerald-500/20 backdrop-blur-md px-4 py-3 text-sm font-semibold text-emerald-300 ring-1 ring-emerald-400/50 shadow-lg shadow-emerald-500/20">
+            <div className="flex items-center justify-between rounded-xl bg-red-500/20 backdrop-blur-md px-4 py-3 text-sm font-semibold text-red-300 ring-1 ring-red-400/60 shadow-lg shadow-red-500/20">
               <span>Current Threat Level:</span>
-              <span aria-live="polite">SUBSTANTIAL</span>
+              <span aria-live="polite">SEVERE</span>
             </div>
             <div className="grid gap-2 pt-2">
               {navLinks.map((link) => (
